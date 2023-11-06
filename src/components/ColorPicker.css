@@ -1,0 +1,46 @@
+.color-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+.indiv-color-square-base {
+    padding: 3px;
+}
+
+.color-square {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pick-button {
+    width: 150px;
+    position: relative;
+    top: 420px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4eaf51;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.selected-color {
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #ffc0cb;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 20px 20px 60px #d9a3ad,
+        -20px -20px 60px #ffdde9; */
+    transition: background-color 0.3s ease;
+}

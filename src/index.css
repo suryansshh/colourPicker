@@ -1,0 +1,5 @@
+html {
+    padding-top: 100px;
+    background: rgb(255, 192, 203);
+    background: radial-gradient(circle, rgba(255, 192, 203, 1) 0%, rgba(184, 182, 221, 1) 100%);
+}
